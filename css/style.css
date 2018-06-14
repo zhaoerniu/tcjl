@@ -13,6 +13,14 @@ body {
   font-weight: 300;
 }
 
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255,255,255,.85);
+}
+
+.navbar-dark .navbar-toggler {
+  border: unset;
+}
+
 .jumbotron {
   background-image: url('http://tiancijunlin-1251116863.coscd.myqcloud.com/banner.jpeg');
   background-size: cover;
@@ -38,6 +46,11 @@ h3 {
   font-size: 1.5rem;
 }
 
+p {
+  display: inline-block;
+  text-align: justify;
+}
+
 .card {
   transition: all .3s ease;
 }
@@ -56,6 +69,21 @@ h3 {
   font-size: 0.875rem;
   line-height: 52px;
   background-color: #3a3b3d;
+}
+
+.go-top {
+  background-image: url('http://tiancijunlin-1251116863.coscd.myqcloud.com/go-top.svg');
+  opacity: .75;
+  width: 32px;
+  height: 32px;
+  margin-top: 10px;
+}
+.go-top:hover {
+  opacity: .5;
+}
+
+svg {
+  fill: #fff;
 }
 
 @media (min-width: 992px) {
