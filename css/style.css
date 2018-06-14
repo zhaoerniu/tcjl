@@ -21,6 +21,10 @@ body {
   border-radius: 0;
 }
 
+a {
+  color: #28a745;
+}
+
 .display-4 {
   font-weight: 400;
   text-shadow: 1px 1px 2px rgba(0,0,0,.50);
